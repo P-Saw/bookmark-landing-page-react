@@ -1,0 +1,79 @@
+.newsletter {
+  background-color: hsl(231, 69%, 60%);
+  padding: 3rem 0;
+  margin-top: 7rem;
+}
+.news-wrapper {
+  max-width: 700px;
+}
+.news-heading {
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+}
+.news-p {
+  color: white;
+  letter-spacing: 0.4rem;
+}
+
+.news-form {
+  display: flex;
+  flex-direction: column;
+}
+.email-input {
+  font-family: "Rubik", sans-serif;
+  color: hsl(229, 31%, 21%);
+  font-weight: 500;
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.input-wrapper {
+  position: relative;
+}
+.input-wrapper.invalid {
+  border: 4px hsl(0, 94%, 66%) solid;
+  border-radius: 10px;
+}
+.input-wrapper.invalid::after {
+  content: "!";
+  font-size: 1.5rem;
+  color: white;
+  position: absolute;
+  top: calc(35% - 15px);
+  right: 5%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: hsl(0, 94%, 66%);
+}
+
+.error {
+  font-size: 1.1rem;
+  color: white;
+  margin: 0;
+  background-color: hsl(0, 94%, 66%);
+  text-align: left;
+}
+
+.news-btn {
+  width: 100%;
+  margin: 2rem auto;
+  font-size: 1rem;
+}
+
+@media (min-width: 500px) {
+  .news-form {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .input-wrapper {
+    flex-grow: 1;
+    max-width: 400px;
+  }
+}
