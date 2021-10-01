@@ -1,4 +1,4 @@
-import arrow from "../images/icon-arrow.svg";
+import arrow from "../../assets/icon-arrow.svg";
 import { useState } from "react";
 
 const FAQaccordion = () => {

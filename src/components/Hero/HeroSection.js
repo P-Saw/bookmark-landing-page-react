@@ -1,6 +1,6 @@
-import Button from "../Button";
+import Button from "../GlobalButton/Button";
 import "./HeroSection.css";
-import heroImg from "../images/illustration-hero.svg";
+import heroImg from "../../assets/illustration-hero.svg";
 
 const HeroSection = () => {
   return (

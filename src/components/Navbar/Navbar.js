@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import logo from "../images/logo-bookmark.svg";
-import logoWhite from "../images/logo-bookmark-w.png";
-import Button from "../Button";
+import logo from "../../assets/logo-bookmark.svg";
+import logoWhite from "../../assets/logo-bookmark-w.png";
+import Button from "../GlobalButton/Button";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);

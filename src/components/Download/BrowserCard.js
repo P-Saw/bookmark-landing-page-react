@@ -1,4 +1,4 @@
-import Button from "../Button";
+import Button from "../GlobalButton/Button";
 
 const BrowserCard = ({ browser, version, img }) => {
   return (

@@ -1,4 +1,4 @@
-import Button from "../Button";
+import Button from "../GlobalButton/Button";
 import FAQaccordion from "./FAQaccordion";
 import "./Questions.css";
 

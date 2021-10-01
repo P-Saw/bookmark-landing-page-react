@@ -1,8 +1,8 @@
 import { useState } from "react";
 import ChooseCard from "./ChooseCard";
-import bookmarkImg from "../images/illustration-features-tab-1.svg";
-import searchImg from "../images/illustration-features-tab-2.svg";
-import shareImg from "../images/illustration-features-tab-3.svg";
+import bookmarkImg from "../../assets/illustration-features-tab-1.svg";
+import searchImg from "../../assets/illustration-features-tab-2.svg";
+import shareImg from "../../assets/illustration-features-tab-3.svg";
 import "./Features.css";
 
 const Features = () => {

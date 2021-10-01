@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Button from "../Button";
+import Button from "../GlobalButton/Button";
 import Validation from "./Validation";
 import "./Newsletter.css";
 

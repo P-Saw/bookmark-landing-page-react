@@ -1,8 +1,8 @@
 import "./Footer.css";
 import { Link } from "react-router-dom";
-import logo from "../images/logo-bookmark-w.png";
-import facebookIcon from "../images/icon-facebook.svg";
-import twitterIcon from "../images/icon-twitter.svg";
+import logo from "../../assets/logo-bookmark-w.png";
+import facebookIcon from "../../assets/icon-facebook.svg";
+import twitterIcon from "../../assets/icon-twitter.svg";
 
 const Footer = () => {
   return (

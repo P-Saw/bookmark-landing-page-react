@@ -1,8 +1,8 @@
 import BrowserCard from "./BrowserCard";
 import "./Download.css";
-import chromeLogo from "../images/logo-chrome.svg";
-import firefoxLogo from "../images/logo-firefox.svg";
-import operaLogo from "../images/logo-opera.svg";
+import chromeLogo from "../../assets/logo-chrome.svg";
+import firefoxLogo from "../../assets/logo-firefox.svg";
+import operaLogo from "../../assets/logo-opera.svg";
 
 const Download = () => {
   return (
